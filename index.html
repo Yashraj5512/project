@@ -1,121 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="C:\Users\Asus\Desktop\Project\css\style.css">
-</head>
-<body>
-    <div id="nav">
-        <img src="C:\Users\Asus\Desktop\Project\assets\download (1).jpeg">
-        <h4>Manga</h4>
-        <h4>Hoodies</h4>
-        <h4>Action Figures</h4>
-        <h4>Mobile Covers</h4>
-        <h4>Anime</h4>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Mon'sa</title>
+  </head>
+  <body>
+    <div class="header__bar">Free Shipping on Orders Over $50</div>
+    <nav class="section__container nav__container">
+      <a href="#" class="nav__logo">The Fashion Find</a>
+      <ul class="nav__links">
+        <li class="link"><a href="#">HOME</a></li>
+        <li class="link"><a href="#">SHOP</a></li>
+        <li class="link"><a href="#">PAGES</a></li>
+        <li class="link"><a href="#">BLOG</a></li>
+        <li class="link"><a href="#">LOOKBOOK</a></li>
+      </ul>
+      <div class="nav__icons">
+        <span><i class="ri-shield-user-line"></i></span>
+        <span><i class="ri-search-line"></i></span>
+        <span><i class="ri-shopping-bag-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header>
+      <div class="section__container header__container">
+        <div class="header__content">
+          <p>EXTRA 55% OFF IN SPRING SALE</p>
+          <h1>Discover & Shop<br />The Trend Ss19</h1>
+          <button class="btn">SHOP NOW</button>
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container collection__container">
+      <img src="assets/collection.jpg" alt="collection" />
+      <div class="collection__content">
+        <h2 class="section__title">New Collection</h2>
+        <p>#35 ITEMS</p>
+        <h4>Available on Store</h4>
+        <button class="btn">SHOP NOW</button>
+      </div>
+    </section>
+
+    <section class="section__container sale__container">
+      <h2 class="section__title">On Sale</h2>
+      <div class="sale__grid">
+        <div class="sale__card">
+          <img src="assets/sale-1.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">MAN OUTERWEAR</p>
+            <h4 class="sale__title">sale <span>40%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="sale__card">
+          <img src="assets/sale-2.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">WOMAN T-SHIRT</p>
+            <h4 class="sale__title">sale <span>25%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="sale__card">
+          <img src="assets/sale-3.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">JACKETS</p>
+            <h4 class="sale__title">sale <span>20%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container musthave__container">
+      <h2 class="section__title">Must Have</h2>
+      <div class="musthave__nav">
+        <a href="#">ALL</a>
+        <a href="#">MAN</a>
+        <a href="#">WOMEN</a>
+        <a href="#">BAG</a>
+        <a href="#">SHOES</a>
+      </div>
+      <div class="musthave__grid">
+        <div class="musthave__card">
+          <img src="assets/musthave-1.png" alt="must have" />
+          <h4>Basic long sleeve T-shirt</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-2.png" alt="must have" />
+          <h4>Ribbed T-shirt with buttons</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-3.png" alt="must have" />
+          <h4>Jacket withside strips</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-4.png" alt="must have" />
+          <h4>High-heel tubular sandals</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-5.png" alt="must have" />
+          <h4>Coral fabric belt bag</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-6.png" alt="must have" />
+          <h4>Piggy skater slogan T-shirt</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-7.png" alt="must have" />
+          <h4>White platform boots</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-8.png" alt="must have" />
+          <h4>Sweater vest with sleeves</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-9.png" alt="must have" />
+          <h4>Slim fit pants</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-10.png" alt="must have" />
+          <h4>Gray backpack</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-11.png" alt="must have" />
+          <h4>Neon sweatshirt</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assets/musthave-12.png" alt="must have" />
+          <h4>Hooded nautical jacket</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="section__container news__container">
+        <h2 class="section__title">Latest News</h2>
+        <div class="news__grid">
+          <div class="news__card">
+            <img src="assets/news-1.jpg" alt="news" />
+            <div class="news__details">
+              <p>
+                FASHION <i class="ri-checkbox-blank-circle-fill"></i>
+                <span>JAMES SIMSON</span>
+                <i class="ri-checkbox-blank-circle-fill"></i> FEB 2, 2019
+              </p>
+              <h4>Seasonal Trends</h4>
+              <hr />
+              <p>
+                Discuss the latest fashion trends for the current season and
+                offer tips and ideas on how to incorporate these trends into
+                your wardrobe.
+              </p>
+              <a href="#"><i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+          <div class="news__card">
+            <img src="assets/news-2.jpg" alt="news" />
+            <div class="news__details">
+              <p>
+                TRENDS <i class="ri-checkbox-blank-circle-fill"></i>
+                <span>JAMES SIMSON</span>
+                <i class="ri-checkbox-blank-circle-fill"></i> APR 15, 2019
+              </p>
+              <h4>Fashion Tips and Advice</h4>
+              <hr />
+              <p>
+                Provide your readers with practical tips and advice on how to
+                dress for different occasions, body types, or style preferences.
+              </p>
+              <a href="#"><i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+          <div class="news__card">
+            <img src="assets/news-3.jpg" alt="news" />
+            <div class="news__details">
+              <p>
+                STYLE <i class="ri-checkbox-blank-circle-fill"></i>
+                <span>JAMES SIMSON</span>
+                <i class="ri-checkbox-blank-circle-fill"></i> JUL 22, 2019
+              </p>
+              <h4>Sustainable Fashion</h4>
+              <hr />
+              <p>
+                Cover the growing trend of eco-conscious fashion and explore the
+                various ways to be sustainable in your fashion choices.
+              </p>
+              <a href="#"><i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container brands__container">
+      <div class="brand__image">
+        <img src="assets/brand-1.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assets/brand-2.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assets/brand-3.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assets/brand-4.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assets/brand-5.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assets/brand-6.png" alt="brand" />
+      </div>
+    </section>
+
+    <hr />
+
+    <footer class="section__container footer__container">
+      <div class="footer__col">
+        <h4 class="footer__heading">CONTACT INFO</h4>
+        <p>
+          <i class="ri-map-pin-2-fill"></i> 123, London Bridge Street, London
+        </p>
+        <p><i class="ri-mail-fill"></i> support@monsa.com</p>
+        <p><i class="ri-phone-fill"></i> (+012) 3456 789</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">COMPANY</h4>
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Work With Us</p>
+        <p>Our Blog</p>
+        <p>Terms & Conditions</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">USEFUL LINK</h4>
+        <p>Help</p>
+        <p>Track My Order</p>
+        <p>Men</p>
+        <p>Women</p>
+        <p>Shoes</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">INSTAGRAM</h4>
+        <div class="instagram__grid">
+          <img src="assets/instagram-1.jpg" alt="instagram" />
+          <img src="assets/instagram-2.jpg" alt="instagram" />
+          <img src="assets/instagram-3.jpg" alt="instagram" />
+          <img src="assets/instagram-4.jpg" alt="instagram" />
+          <img src="assets/instagram-5.jpg" alt="instagram" />
+          <img src="assets/instagram-6.jpg" alt="instagram" />
+        </div>
+      </div>
+    </footer>
+
+    <hr />
+
+    <div class="section__container footer__bar">
+      <div class="copyright">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+      <div class="footer__form">
+        <form>
+          <input type="text" placeholder="ENTER YOUR EMAIL" />
+          <button class="btn" type="submit">SUBSCRIBE</button>
+        </form>
+      </div>
     </div>
-    <div id="cursor"></div>
-    <div id="cursor-blur"></div>
-    <video autoplay loop muted src="C:\Users\Asus\Desktop\Project\assets\videoplayback (2).webm"></video>
-    <div id="main">
-        <div id="page1">
-            <h1>SHOP WATCH READ ENJOY</h1>
-            <h2>Welcome To Anime Store</h2>
-            <p>Biggest Anime and Manga Store with a selection of products with a Good price: Cosplay, Action Figures, Phone Cases, Posters And More. ✓Free shipping. T\C Applied</p>
-        </div>
-        <div id="page2">
-            <div id="scroller">
-                <div id="scroller-in">
-                    <h4>Manga</h4>
-                    <h4>Hoodies</h4>
-                    <h4>Action Figures</h4>
-                    <h4>Mobile Covers</h4>
-                    <h4>Anime</h4>
-                </div>
-                <div id="scroller-in">
-                    <h4>Manga</h4>
-                    <h4>Hoodies</h4>
-                    <h4>Action Figures</h4>
-                    <h4>Mobile Covers</h4>
-                    <h4>Anime</h4>
-                </div>
-            </div>
-            <div id="about-us">
-                <img src="C:\Users\Asus\Desktop\Project\assets\download (2).jpeg">
-                <div id="about-us-in">
-                    <h3>ABOUT US</h3>
-                    <p>Anime and manga Store is the best place for all the Anime fans & Otaku to grab their favorite Anime merchandise in just a click! With the availability of more than 1000 items, you can buy Bags,Backpacks,Clothing,Cosplay,Lamp, items, Cosplay and Costume products, Jewelery and Accessories, Action Figures,Phone Accessories and much more stuff in just a single place. And you know what the best thing is? We deliver Worldwide for free.</p>
-                </div>
-                <img src="C:\Users\Asus\Desktop\Project\assets\images (1).jpeg">
-            </div>
-            <div id="cards-container">
-                <div class="card" id="card1">
-                  <div class="overlay">
-                    <h4>Action Figures</h4>
-                    <p>The reasons behind collecting figures are as vast and unique as anime figures themselves. For many, it's a way to surround your physical space with some of your favorite characters. As part of the Otaku culture, the anime figures are essential they represent together with other items our true love for anime and manga. When people begin in the otaku universe becoming more and more fans of the anime and manga. 
-                    </p>
-                  </div>
-                </div>
-                <div class="card" id="card2">
-                  <div class="overlay">
-                    <h4>Manga</h4>
-                    <p>Manga are conform to a style developed in Japan in the late 19th century, and the form has a long history in earlier Japanese art. The term manga is used in Japan to refer to both comics and cartooning. The medium includes works in a broad range of genres: action, adventure, business and commerce, comedy, detective, drama, historical, horror, mystery, romance, science fiction and fantasy, erotica, sports and games, and suspense, among others. Many manga are translated into other languages.
-                    </p>
-                  </div>
-                </div>
-                <div class="card" id="card3">
-                  <div class="overlay">
-                    <h4>Anime</h4>
-                    <p>Anime is hand-drawn and computer-generated animation originating from Japan. Outside Japan and in English, anime refers specifically to animation produced in Japan. However, in Japan and in Japanese, anime describes all animated works, regardless of style or origin. Many works of animation with a similar style to Japanese animation are also produced outside Japan.  The earliest commercial Japanese animation dates to 1917. 
-                    </p>
-                  </div>
-                </div>
-            </div>
-            <div id="green-div">
-              <img src="C:\Users\Asus\Desktop\Project\assets\download (4).jpeg">
-              <h4>sign-up at anime stores for exiting offer and discounts notification straingt to your inbox and whatsapp</h4>
-              <img src="C:\Users\Asus\Desktop\Project\assets\download (3).jpeg">
-            </div>
-        </div>
-        <div id="page3">
-          <p>Shop for anime merchandise at our store! We've got a wide range of anime merch from your favorite anime shows and movies. India's first and only exclusive store for anime accessories, whether you're looking for collectibles or posters, we've got you covered!</p>
-          <img id="quote1" src="C:\Users\Asus\Desktop\Project\assets\images__2_-removebg-preview.png">
-          <img id="quote2" src="C:\Users\Asus\Desktop\Project\assets\images__3_-removebg-preview.png">
-        </div>
-        <div id="page4">
-          <h1>WHAT ARE YOU WAITING FOR?</h1>
-          <div class="elem">
-            <h2>Anime</h2>
-            <img src="C:\Users\Asus\Desktop\Project\assets\Top-10-Best-Anime-Series-Of-All-Time-Ranked-scaled-1.jpeg">
-          </div>
-          <div class="elem">
-            <h2>Manga</h2>
-            <img src="C:\Users\Asus\Desktop\Project\assets\best-manga-slaes-2023_3gmb.1200.webp">
-          </div>
-          <div class="elem">
-            <h2>products</h2>
-            <img src="C:\Users\Asus\Desktop\Project\assets\H80b9127ec5b54a97af2f53deaa8f88d4P.jpg_640x640Q90.jpg_.jpeg">
-          </div>
-        </div>
-        <div id="footer">
-          <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-footer.svg">
-            <div id="f1">
-             <img src="C:\Users\Asus\Desktop\Project\assets\download (1).jpeg">
-            </div>
-            <div id="f2">
-               <h3>Anime</h3>
-               <h3>Manga</h3>
-               <h3>products</h3>
-            </div>
-            <div id="f3">
-              <h3>products</h3>
-              <h3>Contact us</h3>
-            </div>
-        </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="C:\Users\Asus\Desktop\Project\js\script.js"></script>
-</body>
+  </body>
 </html>
